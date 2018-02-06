@@ -19,20 +19,40 @@ public class ShipClass {
         passenger = Passenger;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getModel() {
+        return model;
     }
 
     public void setModel(String model) {
         this.model = model;
     }
 
+    public String getManufacture() {
+        return manufacture;
+    }
+
     public void setManufacture(String manufacture) {
         this.manufacture = manufacture;
     }
 
+    public String getShip_class() {
+        return ship_class;
+    }
+
     public void setShip_class(String ship_class) {
         this.ship_class = ship_class;
+    }
+
+    public String getPassenger() {
+        return passenger;
     }
 
     public void setPassenger(String passenger) {
