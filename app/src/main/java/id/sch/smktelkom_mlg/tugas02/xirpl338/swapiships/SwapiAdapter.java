@@ -30,10 +30,10 @@ public class SwapiAdapter extends RecyclerView.Adapter<SwapiAdapter.Holder> {
         ShipClass shipclass = ship.get(position);
 
         holder.tv_name.setText(shipclass.getName());
-        holder.tv_manufacturer.setText(shipclass.getManufacture());
-        holder.tv_model.setText(shipclass.getModel());
-        holder.tv_class.setText(shipclass.getShip_class());
-        holder.tv_passenger.setText(shipclass.getPassenger());
+        holder.tv_manufacturer.setText("Manufacturer : " + shipclass.getManufacture());
+        holder.tv_model.setText("Model : " + shipclass.getModel());
+        holder.tv_class.setText("Class : " + shipclass.getShip_class());
+        holder.tv_passenger.setText("Passengers : " + shipclass.getPassenger());
     }
 
     @Override
